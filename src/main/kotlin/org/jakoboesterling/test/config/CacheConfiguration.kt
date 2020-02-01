@@ -45,6 +45,18 @@ class CacheConfiguration(jHipsterProperties: JHipsterProperties) {
             createCache(cm, org.jakoboesterling.test.domain.User::class.java.name)
             createCache(cm, org.jakoboesterling.test.domain.Authority::class.java.name)
             createCache(cm, org.jakoboesterling.test.domain.User::class.java.name + ".authorities")
+            createCache(cm, org.jakoboesterling.test.domain.Region::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Country::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Location::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Department::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Department::class.java.name + ".employees")
+            createCache(cm, org.jakoboesterling.test.domain.Task::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Task::class.java.name + ".jobs")
+            createCache(cm, org.jakoboesterling.test.domain.Employee::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Employee::class.java.name + ".jobs")
+            createCache(cm, org.jakoboesterling.test.domain.Job::class.java.name)
+            createCache(cm, org.jakoboesterling.test.domain.Job::class.java.name + ".tasks")
+            createCache(cm, org.jakoboesterling.test.domain.JobHistory::class.java.name)
             // jhipster-needle-ehcache-add-entry
         }
     }
