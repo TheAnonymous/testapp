@@ -1,0 +1,55 @@
+{
+  "generator-jhipster-kotlin": {
+    "promptValues": {
+      "packageName": "org.jakoboesterling.test"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "monolith",
+    "baseName": "myApp",
+    "packageName": "org.jakoboesterling.test",
+    "packageFolder": "org/jakoboesterling/test",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MTRjMDU5YzE2NDQyZjJkZjNkZDk1M2ViOThkYjAyYWMwY2E2MjkwMGU3OWFjNmUxNGZmY2Q1ZjE0NjUwYjE1MDFhYjFiNGU0YmU1NmU5MjE4MWNmYzNjNzQ5OTEzYWM0YjFiMDFjYzg5ZWMwYjJjNGQwNzk0YjI2MWFiNTVhZDA=",
+    "embeddableLaunchScript": false
+  },
+  "generator-jhipster": {
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "monolith",
+    "baseName": "myApp",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "materia",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1580576450841,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.4.0"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.4.0"
+      }
+    ]
+  }
+}
